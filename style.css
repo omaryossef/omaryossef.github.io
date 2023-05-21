@@ -5,14 +5,13 @@
   text-transform: capitalize;
 }
 body {
- 
   height: 100%;
   background-color: rgba(240, 240, 233, 0.623);
 }
 .personal-info {
   display: inline-block;
-  width: 50%;
-  height: 320px;
+  width: 40%;
+  height: 600px;
   margin-top: 50px;
   margin-left: 25%;
   background-color: rgb(236, 236, 236);
@@ -21,7 +20,6 @@ body {
 }
 .image-box {
   float: left;
-  
 }
 img {
   display: block;
@@ -29,8 +27,8 @@ img {
   margin-top: 20px;
   object-fit: cover;
   border-radius: 10%;
-  margin-left: 10px; box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  
+  margin-left: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .personal-info-container {
   position: relative;
@@ -43,33 +41,35 @@ h1 {
   text-decoration: underline;
   padding-top: 10px;
   padding-bottom: 20px;
+  font-size: 30px;
 }
 h5 {
   text-align: start;
   padding-right: 10px;
-
+ 
 }
 
 li {
   list-style: none;
   margin-left: 70px;
-  font-size: 10px;
+  font-size: 16px;
   padding: 5px;
 }
 a {
-  font-size: 10px;
+  font-size: 20px;
   text-decoration: none;
   color: rgba(102, 102, 7, 0.782);
 }
 p {
   padding-top: 40px;
-  font-size: 9px;
+  font-size: 16px;
   color: rgb(28, 27, 12);
+  margin: 20px;
 }
 mark,
 h5 {
   color: black;
-  font-size: 14px;
+  font-size: 22px;
   background-color: initial;
   animation-name: example;
   animation-duration: 4s;
@@ -89,9 +89,9 @@ h5 {
     color: rgb(200, 157, 2);
   }
 }
-span{
-    font-size: 12px;
-    color: rgba(102, 102, 7, 0.583);;
+span {
+  font-size: 16px;
+  color: rgba(102, 102, 7, 0.583);
 }
 .note-box {
   margin-left: 20px;
@@ -102,20 +102,27 @@ h2 {
   text-align: center;
   text-decoration: underline;
   padding-bottom: 20px;
-   color: rgb(104, 104, 38);
-    text-shadow: 1px 1px 1px 1px rgb(233, 233, 222);
+  color: rgb(104, 104, 38);
+  text-shadow: 1px 1px 1px 1px rgb(233, 233, 222);
 }
 .antworten-box li {
   list-style: disc;
 }
-footer{
-    text-align: right;
-    margin-top: -35px;
-    padding-right: 255px;
-    padding-bottom: 50px;
-  
+ /*----------footer------------*/
+footer {
+  text-align: right;
+  margin-top: -35px;
+  padding-right: 650px;
+  padding-bottom: 50px;
 }
-footer p{
-    color:rgb(35, 34, 23);
-    font-size: 12px;
+
+footer p {
+  color: rgb(35, 34, 23);
+  font-size: 12px;
+}
+@media (min-width:480px) and (max-width:768px) {
+    .personal-info{
+        width: 50%;
+    }
+    
 }
