@@ -11,7 +11,7 @@ body {
 .personal-info {
   display: inline-block;
   width: 40%;
-  height: 600px;
+  height: 750px;
   margin-top: 50px;
   margin-left: 25%;
   background-color: rgb(236, 236, 236);
@@ -108,6 +108,7 @@ h2 {
   list-style: disc;
 }
 h4{
+  padding-top: 10px;
     padding-left: 20px;
     padding-bottom: 10px;
     color: rgb(48, 30, 2);
@@ -130,4 +131,28 @@ footer p {
    
   }
  
+}
+.note-box a{
+  
+  color: rgba(208, 109, 17, 0.986);
+}
+.arrow{
+  font-size: 19px;
+   animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes example {
+  25% {
+    color: rgb(3, 50, 161);
+  }
+  50% {
+    color: rgb(103, 21, 15);
+  }
+  75% {
+    color: rgb(220, 202, 8);
+  }
+  100% {
+    color: rgb(2, 200, 25);
+  }
 }
