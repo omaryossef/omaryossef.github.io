@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/6f697e0e48.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <main class="main-box">
+      <section class="personal-info">
+        <div class="image-box">
+          <img
+            src="https://github.com/omaryossef/omaryossef.github.io/blob/main/image/212887.jpg?raw=true"
+            alt="omaryossef-photo"
+          />
+        </div>
+        <div class="personal-info-container">
+          <h1>About Me</h1>
+          <h5>Name : <span>omar yossef</span></h5>
+          <h5>language:</h5>
+          <ul>
+            <li>arabic</li>
+            <li>spanisch</li>
+            <li>deutsch</li>
+          </ul>
+          <h5>web-language:</h5>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+          <h5>
+            Email :
+            <a href="mailto:yussefomar8@icloud.com" target="_blank"
+              >yussefomar8@icloud.com</a
+            >
+          </h5>
+        </div>
+        <div class="note-box">
+          <p>
+            <mark>notiz:</mark>
+            "Seit ich angefangen habe, Programmieren zu lernen, war ich
+            motiviert, mehr über Programmiersprachen zu lernen. Mein Interesse
+            an diesem Bereich mehr war, als ich Codes schrieb und damit
+            experimentierte, und mit der Zeit wurde das Interesse immer größer"
+          </p>
+        </div>
+      </section>
+      <section class="personal-info">
+        <h2>fragen antworten</h2>
+        <ul class="antworten-box">
+          <li>
+            Um mich auf das Tutorium vorzubereiten, versuche ich die Themen
+            kennen und verstehen, die wir als Gruppe im Unterricht bearbeiten
+            sollen, und die zu bearbeitenden themen aufschreiben, damit ich nach
+            Lösungen suchen und diese verstehen kann. Recherche und Vorbereitung
+            auf neue aufgabe, und neue sachen zuzammen Lernen und verstehen.
+          </li>
+          <li>
+            Als Menschen können wir nicht über alles wissen, daher versuchen
+            wir, durch Forschung neue Informationen bereitzustellen und
+            erhalten, und das ist ganz normal. Als Antwort konnte Ich sagen:
+            "gute frage ..... Wir können zuzammen nach einer Lösung recherchen
+            und finden" trotzdem arbeite ich gern im kurs in einer gruppe mit
+            und das helf mir um mehrere informationen zu haben , das intersiere
+            mich sehr
+          </li>
+          <li>
+            Nachdem wir die Themen in einer Liste gesammelt haben, können wir
+            über die wichtigsten Themen abstimmen und bearbeiten. danach
+            versuche ich in die letzten Minuten die Reste Themen schnell
+            erklären damit für die nächste Unterricht einfacher werden.
+          </li>
+        </ul>
+        <div class="note-box">
+            <p>
+                <mark>notiz:</mark>
+                natürlich bekomme ich von euch die beste Empfehlung und die wichtigsten Tipps , die mir hilfen kann und wie ich
+                Antworten kann. <br>
+            * ich denke ,werde ich  zu viel lernen und ein bisschen erfahrung samelen, und wie ich mit einer gruppe arbeiten kan. das ist sehr wichtig für zukunft*
+            </p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>
+        <i class="fa-solid fa-copyright" style="color: #6d663c"></i> omar yossef
+      </p>
+    </footer>
+  </body>
+</html>
