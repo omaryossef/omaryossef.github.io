@@ -46,7 +46,6 @@ h1 {
 h5 {
   text-align: start;
   padding-right: 10px;
- 
 }
 
 li {
@@ -108,7 +107,7 @@ h2 {
 .antworten-box li {
   list-style: disc;
 }
- /*----------footer------------*/
+/*----------footer------------*/
 footer {
   text-align: right;
   margin-top: -35px;
@@ -120,9 +119,10 @@ footer p {
   color: rgb(35, 34, 23);
   font-size: 12px;
 }
-@media (min-width:480px) and (max-width:768px) {
-    .personal-info{
-        width: 50%;
-    }
-    
+@media (min-width: 480px) and (max-width: 768px) {
+  .personal-info {
+    width: 50%;
+   
+  }
+ 
 }
